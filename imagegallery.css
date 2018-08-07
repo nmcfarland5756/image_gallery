@@ -1,0 +1,72 @@
+header {
+	background-color: white;
+	padding: 30px;
+	font-size: x-large; 
+	text-align: center;
+	color:#668;
+	padding-left: 15px;
+}
+
+.clickpic {
+	padding: 0 6px;
+	float: left;
+	width:33.33333%;
+	height:auto;
+	display: inline-block;
+}
+
+div.gallery {
+	border: 1px solid #ccc;
+	float: left;
+	display: inline-block;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	display: inline-block;
+}
+
+div.describe {
+	padding: 10px;
+	text-align: center;
+}
+
+* {
+	box-sizing:border-box;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+
+}
+
+#menu {
+	float:left;
+	color: grey;
+}
+
+@media only screen and (max-width: 700px) {
+	.clickpic {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.clickpic {
+		width:100%;
+		
+	}
+}
+.clearfix:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
